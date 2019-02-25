@@ -1,8 +1,8 @@
 # 0.5deg
-cdo remapcon,grid05.txt -setgrid,grid05old.txt ERA5_fCH4wet_halfdeg_2010-2016.nc ERA5_fCH4wet_halfdeg_2010-2016.nc
+cdo remapcon,grid05.txt -setgrid,grid05old.txt oldnamefile_halfdeg.nc newnamefile_halfdeg.nc
 
 # 1deg
-cdo remapcon,grid_1deg.txt -setgrid,grid05old.txt ERA5_fCH4wet_halfdeg_2010-2016.nc ERA5_fCH4wet_onedeg_2010-2016.nc
+cdo remapcon,grid_1deg.txt -setgrid,grid05old.txt oldnamefile_halfdeg.nc newnamefile_onedeg.nc
 
 # 2deg
-cdo remapcon,grid_2deg.txt -setgrid,grid05old.txt ERA5_fCH4wet_halfdeg_2010-2016.nc ERA5_fCH4wet_twodeg_2010-2016.nc
+cdo remapcon,grid_2deg.txt -setgrid,grid05old.txt oldnamefile_halfdeg.nc newnamefile_twodeg.nc
